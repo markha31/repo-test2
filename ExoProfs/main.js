@@ -1,3 +1,5 @@
+
+//Exo2
 /*let nombre = prompt("Saisir le nombre de notes");
 let somme = 0;
 for (let i = 0; i < nombre; i++) {
@@ -8,6 +10,8 @@ for (let i = 0; i < nombre; i++) {
 console.log(somme/nombre);*/
 
 
+
+//Exo3
 /*let nombre1 = parseInt(prompt("Saisir le 1er nombre"));
 let nombre2 = parseInt(prompt("Saisir le 2eme nombre"));
 
@@ -19,7 +23,9 @@ let test = somme>0 ? "positif":"negatif";
 console.log(test); */
 
 
-let age = parseInt(prompt("Saisir l'age"));
+
+//Exo4
+/*let age = parseInt(prompt("Saisir l'age"));
 
 switch (true) {
     case age >= 6 && age <= 7:
@@ -39,5 +45,30 @@ switch (true) {
 }
 if (age < 6) {
     console.log("Hors catégorie ou trop jeune")
+} */
+
+
+
+//Exo5
+/*let mot1 = (prompt("Saisir 1er mot"));
+let mot2 = (prompt("Saisir 2ème mot"));
+let mot3 = (prompt("Saisir 3ème mot"));
+
+let tab = [mot1, mot2, mot3];
+
+console.log(tab.sort()); */
+
+
+
+//Exo6
+let article = (prompt("Saisir un article"));
+let prix = (prompt("Saisir le prix"));
+let quantité = (prompt("Saisir la quantité"));
+
+let tab = [article, prix, quantité];
+
+for(let i = 0; i< tab; i++){
+    prix * 1.20 * quantité;
 }
 
+console.log(tab);
