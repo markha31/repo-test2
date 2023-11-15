@@ -1,4 +1,4 @@
-class Animal{
+/* class Animal{
     //attributs
     espece;
     nbrPattes;
@@ -46,7 +46,6 @@ class Animal{
 
 }
 
-
 const tigre = new Animal('tigre', 4, 150, 180);
 const chat = new Animal('chat', 4, 30,4);
 const chien = new Animal('chien', 4, 50, 9);
@@ -64,4 +63,36 @@ coq.crier();
 tigre.dormir();
 chat.dormir();
 chien.dormir();
-coq.dormir();
+coq.dormir();       */
+
+
+//Exo 13
+
+/* class Maison{
+    //Attributs
+    nom;
+    longueur;
+    largeur;
+    //Constructeur
+    constructor(newNom, newLongueur, newLargeur){
+        this.nom = newNom;
+        this.longueur = newLongueur;
+        this.largeur = newLargeur;
+    }
+
+    perimetre(){
+            return (this.longueur + this.longueur)*2;
+        }
+    surface(){
+            return this.longueur * this.longueur;
+        }
+    }
+
+const maison1 = new Maison('maison1', 100, 150);
+const maison2 = new Maison('maison2', 50, 100);
+
+console.log(maison1.nom , maison1.perimetre()); */
+  
+
+//Exo 14
+
