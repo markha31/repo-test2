@@ -109,4 +109,12 @@ console.log(tab);   */
 
 //Exo9
 
-let quantité = parseInt(prompt("Saisir la quantité"));
+//let quantité = parseInt(prompt("Saisir la quantité"));
+
+
+//Exo 12
+/*let nombre = parseInt(prompt("Saisir un nombre"));
+for (let i = 1; i < 10; i++) {
+  console.log(nombre + " x " + i + " = " + nombre * i);
+}   */
+
