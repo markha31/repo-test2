@@ -96,3 +96,25 @@ console.log(maison1.nom , maison1.perimetre()); */
 
 //Exo 14
 
+class Imc{
+    //Attributs
+    nom;
+    poids;
+    taille;
+    //Constructeur
+    constructor(newNom, newPoids, newTaille){
+        this.nom = newNom;
+        this.poids = newPoids;
+        this.taille = newTaille;
+    }
+    calculImc() {
+        return (this.poids / this.taille * this.taille); 
+    }
+    display(){
+        console.log(`${markha.nom} pèse : ${markha.poids}, fais ${markha.taille} cm, son IMC est ${markha.calculImc()}`);
+    }
+}
+
+const markha = new Imc('markha', 46, 155);
+
+console.log(markha.display());
