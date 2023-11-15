@@ -112,6 +112,14 @@ console.log(tab);   */
 //let quantité = parseInt(prompt("Saisir la quantité"));
 
 
+//Exo 10
+
+//fonction qui génére un nombre random
+/*let tentatives = 0;
+function numberRandom(nbr){
+    return Math.floor((Math.random() * nbr) + 1);
+}       */
+
 //Exo 12
 /*let nombre = parseInt(prompt("Saisir un nombre"));
 for (let i = 1; i < 10; i++) {
